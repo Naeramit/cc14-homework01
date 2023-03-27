@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./education.html">Education</a>
+        <a href="./work.html">Work Experience</a>
+        <a href="./contact.html">Contact Me</a>
+    </nav>
+    <div class="contact__main">
+        <div class="contact__main__content">
+            <div style="margin-bottom: 1em ;">Enter your info</div>
+            <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <div>
+                    <label for="fname">Your Name</label><br>
+                    <input type="text" name="contact_name" id="fname" style="width: 95%;"><br>
+                    <label for="Email">Your E-mail</label><br>
+                    <input type="email" name="contact_email" id="Email" style="width: 95%;"><br>
+                </div>
+                <div>
+                    <label for="Gender">Gender</label><br>
+                    <select name="contact_gender" id="Gender">
+                        <option value="unselect">selected ..</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="Massage">Massage</label><br>
+                    <textarea name="contact_massage" id="Massage" cols="34" rows="10"></textarea><br>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </div>       
+
+    </div>
+    
+</body>
+</html>

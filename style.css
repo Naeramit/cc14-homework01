@@ -1,0 +1,97 @@
+/* css for all page */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+/* css for index */
+.index__main{
+    width: 100vw;
+}
+.index__main--profile{
+    width: 400px;
+    margin: auto;
+}
+.index__main--profile--name{
+    font-size: 40px;
+}
+.index__main--profile--photo >img{
+    width: 200px;
+    padding: 20px;
+}
+.index__main--profile--career{
+    font-size: 25px;
+}
+.index__main--skill{
+    width: 400px;
+    margin: auto;
+}
+.index__main--skill--text{
+    font-size: 20px;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+.index__main--skill--list{
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+/* css for education */
+.education__main{
+    width: 100vw;
+}
+.education__main__content{
+    width: 400px;
+    margin: auto;
+}
+.education__main__content__text{
+    font-size: 40px;
+}
+.education__main__content__photo > img{
+    width: 400px;
+}
+table, th, tr, td{
+    padding: 1rem;
+    border:1px solid black;
+    border-collapse: collapse;  
+}
+
+/* css for work */
+.work_main{
+    width: 100vw;
+}
+.work__main__content{
+    width: 400px;
+    margin: auto;
+}
+.work__main__content__text{
+    font-size: 40px;
+}
+.work__main__content__photo > img{
+    width: 400px;
+}
+
+/* css for contact */
+.contact__main{
+    width: 100vw;
+}
+.contact__main__content{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(122, 144, 144);
+    border-radius: 5px;
+    color: rgb(232, 245, 240);
+}
+.contact__main__content  div{ 
+margin-left: 5px;
+}
